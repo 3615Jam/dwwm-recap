@@ -1,0 +1,98 @@
+/* - - - ALL - - - */ 
+
+
+
+
+
+
+
+/* - - - HEADER - - - */ 
+
+header {
+	display: flex;
+
+}
+
+
+
+
+/* - - - NAV - - - */ 
+
+nav {
+	
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+	border: 1px solid orange;
+}
+
+#navbar li {
+	flex: 1 1 0;
+	justify-content: space-around;
+	text-align: center;
+	border: 1px solid green;
+}
+
+
+
+/* - - - SECTION - - - */ 
+#modules {
+	width: 75%;
+}
+
+#presentation {
+	text-align: center;
+}
+
+#menuAccueil {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.bigCube:hover {
+	background-color: red;
+}
+
+.smallCube:hover {
+	background-color: green;
+}
+
+#menuAccueil p {
+	flex: 1 0 100%;
+	text-align: center;
+	border: 1px solid red;
+}
+
+#menuAccueil > div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.bigCube {
+	border: 1px solid red;
+	width: 45%;
+}
+
+.smallCube {
+	border: 1px solid black;
+	width: 150px;
+}
+
+
+
+
+/* - - - FOOTER - - - */ 
+
+footer {
+	text-align: center;
+}
+
+
+
+
+
+/* - - - - - - - - - */ 
